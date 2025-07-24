@@ -1,0 +1,354 @@
+{
+	"id": "bde6e2ea-4d9f-4be5-95d9-720e577f24cd",
+	"name": "RPE - Desafio",
+	"timestamp": "2025-07-24T21:42:05.801Z",
+	"collection_id": "2044498-6a10aa97-f0f3-4db4-b6f1-149d80e96700",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-24T21:42:03.524Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8ccd1cde-700d-4b84-8446-7df16c9a5f9b",
+			"name": "Sign Up",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 341,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				341
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "36cc9c96-40d1-4f68-91b7-21614e23359d",
+			"name": "Sign In",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 235,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				235
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6f03d80b-4818-4828-a59a-672d58f015e4",
+			"name": "All Subscriptions",
+			"url": "http://localhost:8080/api/subscriptions",
+			"time": 182,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				182
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bc7b56db-0307-4308-830f-bfba8b17ac31",
+			"name": "One Subscription",
+			"url": "http://localhost:8080/api/subscriptions/1",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e2f53db8-67d6-4331-bec7-eb7634ffbffd",
+			"name": "Add Subscription",
+			"url": "http://localhost:8080/api/subscriptions",
+			"time": 26,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "20083fff-9a62-41ca-9d27-090b5495921c",
+			"name": "Update Subscription",
+			"url": "http://localhost:8080/api/subscriptions/2",
+			"time": 20,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "67ab9588-0741-4218-bc30-b397d9d40e99",
+			"name": "Delete Subscription",
+			"url": "http://localhost:8080/api/subscriptions/2",
+			"time": 29,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "6b2c5f31-b534-48cd-a686-6fcfc667715a",
+			"name": "All Payments",
+			"url": "http://localhost:8080/api/payments",
+			"time": 47,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				47
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6592b264-094c-4cc0-8678-6516b7bbdc4c",
+			"name": "Add Payment",
+			"url": "http://localhost:8080/api/payments",
+			"time": 58,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				58
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "e20a417d-4a8b-4b96-9f3e-90e6f997fd1b",
+			"name": "One Payment",
+			"url": "http://localhost:8080/api/payments/2",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0c212852-5fc9-44d9-afb5-daea4e899fcd",
+			"name": "Update Subscription Copy",
+			"url": "http://localhost:8080/api/payments/2",
+			"time": 20,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1004,
+	"collection": {
+		"requests": [
+			{
+				"id": "8ccd1cde-700d-4b84-8446-7df16c9a5f9b",
+				"method": "POST"
+			},
+			{
+				"id": "36cc9c96-40d1-4f68-91b7-21614e23359d",
+				"method": "POST"
+			},
+			{
+				"id": "6f03d80b-4818-4828-a59a-672d58f015e4",
+				"method": "GET"
+			},
+			{
+				"id": "bc7b56db-0307-4308-830f-bfba8b17ac31",
+				"method": "GET"
+			},
+			{
+				"id": "e2f53db8-67d6-4331-bec7-eb7634ffbffd",
+				"method": "POST"
+			},
+			{
+				"id": "20083fff-9a62-41ca-9d27-090b5495921c",
+				"method": "PUT"
+			},
+			{
+				"id": "67ab9588-0741-4218-bc30-b397d9d40e99",
+				"method": "DELETE"
+			},
+			{
+				"id": "6b2c5f31-b534-48cd-a686-6fcfc667715a",
+				"method": "GET"
+			},
+			{
+				"id": "6592b264-094c-4cc0-8678-6516b7bbdc4c",
+				"method": "POST"
+			},
+			{
+				"id": "e20a417d-4a8b-4b96-9f3e-90e6f997fd1b",
+				"method": "GET"
+			},
+			{
+				"id": "0c212852-5fc9-44d9-afb5-daea4e899fcd",
+				"method": "PUT"
+			}
+		]
+	}
+}
